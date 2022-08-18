@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "MetalPetal",
-            dependencies: ["MetalPetalObjectiveC"]),
+            dependencies: []),
         .target(
             name: "MetalPetalObjectiveC",
             dependencies: []),
